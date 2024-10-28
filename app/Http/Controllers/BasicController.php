@@ -222,7 +222,7 @@ class BasicController extends Controller
             ],
             [
                 'id.required' => 'id不能空白!!',
-                'id.integer' => 'id必須為字串!!',
+                'id.string' => 'id必須為字串!!',
                 'id.max' => '最大字元為40!!',
                 'id.exists' => 'id必須存在資料庫!!'
             ]
